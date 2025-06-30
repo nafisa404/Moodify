@@ -1,0 +1,37 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey"
+      ],
+      "responses": [
+        "Hello! How are you feeling today?",
+        "Hi! I'm here for you."
+      ]
+    },
+    {
+      "tag": "sad",
+      "patterns": [
+        "I am sad",
+        "Feeling low",
+        "Not happy"
+      ],
+      "responses": [
+        "I'm here for you. Want to listen to something uplifting?"
+      ]
+    },
+    {
+      "tag": "happy",
+      "patterns": [
+        "I'm happy",
+        "Feeling great"
+      ],
+      "responses": [
+        "That's awesome! Want some feel-good music?"
+      ]
+    }
+  ]
+}
